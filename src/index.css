@@ -1,0 +1,136 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff0f5;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(255, 182, 193, 0.5);
+}
+
+.titulo {
+  text-align: center;
+  color: #d63384;
+}
+
+.subtitulo {
+  color: #e75480;
+  border-bottom: 2px solid #ffc0cb;
+  padding-bottom: 5px;
+}
+
+.input {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.extras {
+  margin: 10px 0;
+}
+
+.extras-lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.boton {
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.boton:hover {
+  background-color: #ff85c1;
+}
+
+.lista-pedidos {
+  margin-top: 20px;
+}
+
+.pedido-item {
+  background-color: #ffe4ec;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+/* ====== PANEL DE META DIARIA ====== */
+.meta-panel {
+  background-color: #fff3f9;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #ffc6e6;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.meta-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.meta-header h2 {
+  color: #d63384;
+  font-weight: 700;
+}
+
+.meta-header button {
+  background-color: #ff6fb3;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.meta-header button:hover {
+  background-color: #ff4d9b;
+}
+
+.resumen {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+.progress-container {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.progress-bar {
+  background-color: #ffe0f0;
+  height: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+
+.progress {
+  background-color: #ff4da6;
+  height: 100%;
+  transition: width 0.4s ease;
+}
+
+.progress-text {
+  font-size: 0.95rem;
+  color: #d63384;
+  font-weight: 600;
+}
